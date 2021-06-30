@@ -1,0 +1,2 @@
+python test.py -w pretrained_facenet/facenet_keras_weights.h5 -d datasets/vgg_test -a annotations/vgg_id.txt -r -g 0 -n run1
+python train_simple.py -c config/train_simple.yaml -g 0 -n first_try

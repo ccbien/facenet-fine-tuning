@@ -1,0 +1,13 @@
+path:
+  ID_annotation: 'annotations/vgg_id.txt'
+  train_dir: 'datasets/vgg_train/'
+  val_dir: 'datasets/vgg_val/'
+  checkpoint_weights: 'pretrained_facenet/facenet_keras_weights.h5'
+
+train:
+  margin: 0.2
+  batch_size: 20
+  learning_rate: 0.001
+  beta_1: 0.9
+  beta_2: 0.999
+  

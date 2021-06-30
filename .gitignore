@@ -1,0 +1,10 @@
+datasets
+report.*
+zzz.py
+pretrained_facenet
+annotations
+log
+results
+checkpoints
+__pycache__
+.vscode
